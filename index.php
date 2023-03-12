@@ -50,9 +50,9 @@ include 'header.php';
     </table>
     <?php 
         }else{
-            echo "<h2> No records found </h2>"
+            echo "<h2> No records found </h2>";
         }
-        msqli_close($conn)
+        mysqli_close($conn);
     ?>
 </div>
 </div>
